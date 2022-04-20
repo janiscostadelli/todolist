@@ -6,11 +6,15 @@
   "overrides": [
     {
       "files": [
-        "*.ts"
+        "*.ts", "*.js"
       ],
       "parserOptions": {
+        "env": {
+          "es6": true
+        },
+        "ecmaVersion": "latest",
         "project": [
-          "tsconfig.json"
+          "**/tsconfig.json"
         ],
         "createDefaultProgram": true
       },
