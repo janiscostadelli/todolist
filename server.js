@@ -12,6 +12,6 @@ app.get('*/', (req, res) => {
   res.sendFile(`${outputPath}/index.html`)
 })
 
-app.listen(process.ENV.PORT || 3000, () => {
-  console.log('Express server listening on port %d in %s mode', this.address().port, app.settings.env)
+app.listen(3000, () => {
+  console.log('Express server listening on port 3000')
 })
