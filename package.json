@@ -7,9 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "ng lint && eslint \"**/*.{ts,html}\" --fix",
     "heroku-prebuild": "ng build --prod",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pre-commit": "npm run lint"
   },
   "lint-staged": {
     "**/*.{js,ts,css,scss,html}": [
