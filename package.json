@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint && eslint \"**/*.{ts,html}\" --fix",
-    "heroku-prebuild": "ng build --prod",
+    "heroku-prebuild": "ng build --prod --aot",
     "prepare": "husky install",
     "pre-commit": "npm run lint"
   },
