@@ -1,11 +1,15 @@
 <app-header-component></app-header-component>
+
 <div class="main-container">
   <h1 class="page-title">Login</h1>
 
-  <form class="example-form">
-    <!-- <mat-form-field>
-      <mat-label>Email</mat-label>
-    </mat-form-field> -->
-    <input type="email" name="email" placeholder="Email" class="form-control" />
+  <form class="login-form" autocomplete="off">
+    <mat-form-field appearance="legacy" color="primary">
+      <input matInput placeholder="Email" />
+    </mat-form-field>
+    <mat-form-field appearance="legacy" color="primary">
+      <input matInput placeholder="Senha" />
+    </mat-form-field>
+    <button mat-raised-button color="primary">Logar</button>
   </form>
 </div>

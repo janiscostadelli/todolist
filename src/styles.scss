@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+$background-color: #333333;
+$title-color: #e9509a;
+
 .main-container {
-  background-color: #333333;
+  background-color: $background-color;
   height: 100vh;
 }
 
@@ -9,8 +12,8 @@ h1 {
 }
 
 .page-title {
-  color: #e9509a;
-  font-family: 'Oswald';
+  color: $title-color;
+  font-family: 'Oswald', sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
@@ -21,5 +24,5 @@ body {
 }
 body {
   margin: 0;
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  color: rgba($color: #fff, $alpha: 0.9);
 }
