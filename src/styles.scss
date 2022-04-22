@@ -1,7 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+.main-container {
+  background-color: #333333;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+.page-title {
+  color: #e9509a;
+  font-family: 'Oswald';
+  font-size: 20px;
+  font-weight: 400;
+}
+
 html,
 body {
+  height: 100%;
+}
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
