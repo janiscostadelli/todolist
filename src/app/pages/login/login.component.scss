@@ -2,15 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 22px;
-  gap: 50px;
+  justify-content: center;
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
-}
-
-.page-title {
-  font-family: 'Oswald';
 }

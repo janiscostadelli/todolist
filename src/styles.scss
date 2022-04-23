@@ -1,19 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 $background-color: #333333;
 $title-color: #e9509a;
+$header-color: #f5d8e6;
+$header-height: 20px;
 
-.main-container {
-  background-color: $background-color;
-  height: 100vh;
+// full screen width
+.full-screen-w {
+  width: 90vw;
 }
 
 h1 {
   margin: 0;
 }
 
+.header {
+  background-color: $header-color;
+  height: $header-height;
+  width: 100%;
+}
+
+.main-container {
+  height: calc(100vh - $header-height);
+  width: 100vw;
+}
+
 .page-title {
   color: $title-color;
-  font-family: 'Oswald', sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
@@ -25,4 +37,5 @@ body {
 body {
   margin: 0;
   color: rgba($color: #fff, $alpha: 0.9);
+  background-color: $background-color;
 }

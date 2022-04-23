@@ -1,0 +1,18 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  p {
+    padding-top: 10px;
+  }
+}
+
+.task-item {
+  display: flex;
+  background-color: #f5d8e6;
+  color: black;
+  min-height: 25px;
+  border-radius: 5px;
+  padding-left: 10px;
+}

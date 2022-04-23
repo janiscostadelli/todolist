@@ -1,14 +1,13 @@
-<app-header-component></app-header-component>
-
 <div class="main-container">
   <h1 class="page-title">Login</h1>
 
   <form class="login-form" autocomplete="off">
-    <mat-form-field appearance="legacy" color="primary">
+    <mat-form-field class="full-screen-w" appearance="legacy" color="primary">
       <input matInput placeholder="Email" />
     </mat-form-field>
-    <mat-form-field appearance="legacy" color="primary">
-      <input matInput placeholder="Senha" />
+    <mat-form-field class="full-screen-w" appearance="legacy" color="primary">
+      <input matInput placeholder="Senha" type="password" />
+      <mat-icon matSuffix class="material-symbols-outlined"> visibility_off </mat-icon>
     </mat-form-field>
     <button mat-raised-button color="primary">Logar</button>
   </form>
